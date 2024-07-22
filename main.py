@@ -1,7 +1,5 @@
-Course='Python'
-total_tasks='12'
-hours_spent='1.5'
-average_execution_time='0.125 часа '
-print(Course, total_tasks, hours_spent, average_execution_time)
-Course='Python, всего задач:12, затрачено часов: 1.5, среднее время выполнения 0.125 часа.'
-print(Course)
+Course='Python, '
+total_tasks=12
+hours_spent=1.5
+average_execution_time=0.125
+print('Курс: 'f'{Course}всего задач:',f'{total_tasks},','затрачено часов:'f'{hours_spent},','среднее время выполнения',(hours_spent/total_tasks),'часа.')
